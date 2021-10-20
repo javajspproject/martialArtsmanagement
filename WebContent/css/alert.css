@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+#dialogoverlay{
+	font-family:Roboto Mono,Helvetica,Arial,sans-serif;font-size:11px;line-height:1.78;color:#000;background-color:#000;
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+
+}
+#dialogbox{
+	font-family:Roboto Mono,Helvetica,Arial,sans-serif;font-size:11px;line-height:1.78;color:#000;background-color:#000;
+	display: none;
+	position: fixed;
+	background: #000;
+	width:550px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:1px; }
+#dialogbox > div > #dialogboxhead{ background: #000; font-size:19px; padding:10px; color:#fff;}
+#dialogbox > div > #dialogboxbody{ background:#fff; padding:10px; color:#000; font-size: 16px;}
+#dialogbox > div > #dialogboxfoot{ background: #fff; padding:10px; text-align:center; }
+
+
+button{
+	color:inherit;font:inherit;margin:100; font-size: 16px;
+	overflow:visible; text-transform:none;
+	-webkit-appearance:button; cursor:pointer;cursor:default;border:2000;padding:2000
+	}
